@@ -1,24 +1,10 @@
-# README
+# API para sistema de agendamento de quadras
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+#### Para o ambiente:
+Instale o ruby com a versão (3.2.2) 
+*** de sua preferência usar o RVM ou RBENV para gerenciar a versão do Ruby ***
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+#### Rodando aplicação:
+- $ bundle install
+- $ rails db:create && rails db:migrate && rails db:seed
+- $ rails server

@@ -2,8 +2,7 @@ class Api::V1::Clients::DashboardController < ApplicationController
   before_action :establishments
 
   def index 
-    # byebug
-    render json: @establishments
+    render json: @establishments, each_serializer: ::Clients::EstablishmentSerializer
   end
 
   private
