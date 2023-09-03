@@ -5,6 +5,8 @@
 *** de sua preferência usar o RVM ou RBENV para gerenciar a versão do Ruby ***
 
 #### Rodando aplicação:
-- $ bundle install
-- $ rails db:create && rails db:migrate && rails db:seed
-- $ rails server
+- $ bundle install (Instalando as dependencias do projeto)
+- $ rails db:create (Criando o banco de dados para os ambientes development e test)
+- $ rails db:migrate (Gerando as migrações de tabelas para o db)
+- $ rails db:seed (Criando objetos fake no banco)
+- $ rails server (Subindo aplicação)
